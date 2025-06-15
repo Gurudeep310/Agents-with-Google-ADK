@@ -1,20 +1,24 @@
-# Renovation Proposal Generator Agent
+# 🛠️ Renovation Proposal Generator Agent
 
 This is a study project which defines a Google ADK Agent that generates renovation proposal documents based on user-provided requirements and uploads them as PDFs to Google Cloud Storage.
 
-## Overview
+## 📽️ Demo
+
+[![Watch the demo](https://img.shields.io/badge/▶%20Watch%20Demo-YouTube-red)](https://your-demo-video-link.com)
+
+
+## 🚀 Overview
 
 The agent is designed to assist homeowners and contractors by creating legally structured renovation proposals for remodeling projects. It uses Google Generative AI (`gemini-2.5-pro-preview-03-25`) along with the ReportLab library to generate the proposal content and render it into a PDF.
 
-## Features
+## ✅ Features
 
 - Accepts renovation requirements from users.
 - Generates a sample contract template
 - Converts structured content into a professional PDF format.
 - Uploads the PDF document to a specified Google Cloud Storage bucket.
 
-## Tech Stack
-
+## 🧱 Tech Stack
 - **Python 3.9+**
 - **Gemini Model**
 - **Google ADK** (`google-adk==1.3.0`)
@@ -24,7 +28,7 @@ The agent is designed to assist homeowners and contractors by creating legally s
 
 ## Usage
 
-### Environment Variables
+### 🔐 Environment Variables
 
 Ensure the following environment variables are set, typically via a `.env` file:
 
@@ -37,7 +41,7 @@ GOOGLE_GENAI_USE_VERTEXAI=true
 ```
 
 
-### How It Works
+### 🧠 How It Works
 
 1. The `root_agent` is initialized with model, instructions, and tool configurations.
 2. Upon receiving a user's renovation requirement, the agent formats a contract-style document.
@@ -46,7 +50,7 @@ GOOGLE_GENAI_USE_VERTEXAI=true
    - Uploads the result to a GCS bucket.
 4. A success message is returned once the upload completes.
 
-## Dependencies
+## 📦 Dependencies
 
 ```python
 google-adk==1.3.0
@@ -63,9 +67,7 @@ google-cloud-storage==3.1.0
 deprecated==1.2.18
 ```
 
-## Setting up the Agent:
-
-Folder Structure:
+## 📂 Folder Structure:
 ```
 renovation-agent/
         __init__.py
@@ -74,13 +76,17 @@ renovation-agent/
         .env
 ```
 
+## 🔧 Setup & Installation
 Install them using:
+1. **Clone the repository:**
 
 ```bash
+git clone https://github.com/yourusername/renovation-agent.git
+cd renovation-agent
 python -m venv .venv
 source .venv/bin/activate
 pip install google-adk
 pip install -r requirements.txt
 ```
 
-Example Question: Hello. Generate Proposal Document for the living room remodel requirement in a proper format that applies to a renovation contract.
+📌 Example Question: Hello. Generate Proposal Document for the living room remodel requirement in a proper format that applies to a renovation contract.
