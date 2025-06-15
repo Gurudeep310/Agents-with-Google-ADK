@@ -2,10 +2,10 @@
 
 This is a study project which defines a Google ADK Agent that generates renovation proposal documents based on user-provided requirements and uploads them as PDFs to Google Cloud Storage.
 
+
 ## 📽️ Demo
 
-![Renovation Proposal Agent Demo](media/renovation-proposal-agent.gif)
-
+▶️ **[Click here to watch the full demo video](media/renovation-proposal-agent.mp4)**  
 
 ## 🚀 Overview
 
