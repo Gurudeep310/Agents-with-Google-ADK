@@ -4,7 +4,7 @@ This is a study project which defines a Google ADK Agent that generates renovati
 
 ## 📽️ Demo
 
-[![Watch the demo](https://img.shields.io/badge/▶%20Watch%20Demo-YouTube-red)](https://your-demo-video-link.com)
+![Renovation Proposal Agent Demo](media/renovation-demo.gif)
 
 
 ## 🚀 Overview
