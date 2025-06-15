@@ -32,7 +32,7 @@ The agent is designed to assist homeowners and contractors by creating legally s
 
 Ensure the following environment variables are set, typically via a `.env` file:
 
-```python
+```
 GOOGLE_API_KEY=your_google_api_key
 STORAGE_BUCKET=your_storage_bucket_name
 GOOGLE_CLOUD_PROJECT=your_project_id
@@ -52,7 +52,7 @@ GOOGLE_GENAI_USE_VERTEXAI=true
 
 ## 📦 Dependencies
 
-```python
+```
 google-adk==1.3.0
 pysqlite3-binary==0.5.4
 pdfplumber==0.11.7
