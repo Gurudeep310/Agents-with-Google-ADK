@@ -4,7 +4,7 @@ This is a study project which defines a Google ADK Agent that generates renovati
 
 ## 📽️ Demo
 
-![Renovation Proposal Agent Demo](media/renovation-demo.gif)
+![Renovation Proposal Agent Demo](media/renovation-proposal-agent.gif)
 
 
 ## 🚀 Overview
